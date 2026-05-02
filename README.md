@@ -114,46 +114,46 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 ## Documentation Index
 
 ### Procreate
-- [01 — Canvas Setup for Game Assets](docs/procreate/01-canvas-setup.md)
-- [02 — Layer Structure for Character Art](docs/procreate/02-layer-structure.md)
-- [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
-- [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
+- [ ] [01 — Canvas Setup for Game Assets](docs/procreate/01-canvas-setup.md)
+- [ ] [02 — Layer Structure for Character Art](docs/procreate/02-layer-structure.md)
+- [ ] [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
+- [x] [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
 
 ### Affinity Designer
-- [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md)
-- [02 — Document Setup and Personas](docs/affinity-designer/02-document-setup.md)
-- [03 — Vector UI: Slot Frame Walkthrough](docs/affinity-designer/03-slot-frame.md)
-- [04 — Slicing Characters for Spine](docs/affinity-designer/04-slicing-for-spine.md)
-- [05 — Export Persona and Batch Export](docs/affinity-designer/05-export-persona.md)
+- [x] [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md)
+- [ ] [02 — Document Setup and Personas](docs/affinity-designer/02-document-setup.md)
+- [ ] [03 — Vector UI: Slot Frame Walkthrough](docs/affinity-designer/03-slot-frame.md)
+- [ ] [04 — Slicing Characters for Spine](docs/affinity-designer/04-slicing-for-spine.md)
+- [ ] [05 — Export Persona and Batch Export](docs/affinity-designer/05-export-persona.md)
 
 ### Affinity Photo
-- [01 — Texture Editing and Compositing](docs/affinity-photo/01-texture-editing.md)
+- [ ] [01 — Texture Editing and Compositing](docs/affinity-photo/01-texture-editing.md)
 
 ### Spine 2D
-- [01 — Project Setup and Image Import](docs/spine2d/01-project-setup.md)
-- [02 — Rigging a Bee Character](docs/spine2d/02-rigging-bee.md)
-- [03 — Animation States for Slot Games](docs/spine2d/03-animation-states.md)
-- [04 — Mesh Deformation and IK](docs/spine2d/04-mesh-and-ik.md)
-- [05 — Exporting for Game Engines](docs/spine2d/05-exporting.md)
+- [ ] [01 — Project Setup and Image Import](docs/spine2d/01-project-setup.md)
+- [ ] [02 — Rigging a Bee Character](docs/spine2d/02-rigging-bee.md)
+- [ ] [03 — Animation States for Slot Games](docs/spine2d/03-animation-states.md)
+- [ ] [04 — Mesh Deformation and IK](docs/spine2d/04-mesh-and-ik.md)
+- [ ] [05 — Exporting for Game Engines](docs/spine2d/05-exporting.md)
 
 ### Phaser 3
-- [01 — Project Setup with SvelteKit](docs/phaser/01-project-setup.md)
-- [02 — Loading Spine Assets in Phaser](docs/phaser/02-loading-spine-assets.md)
-- [03 — SpineGameObject and Animation States](docs/phaser/03-spine-game-object.md)
-- [04 — Slot Reel Logic and Scene Structure](docs/phaser/04-reel-logic.md)
-- [05 — Texture Atlases and Asset Management](docs/phaser/05-texture-atlases.md)
+- [ ] [01 — Project Setup with SvelteKit](docs/phaser/01-project-setup.md)
+- [ ] [02 — Loading Spine Assets in Phaser](docs/phaser/02-loading-spine-assets.md)
+- [ ] [03 — SpineGameObject and Animation States](docs/phaser/03-spine-game-object.md)
+- [ ] [04 — Slot Reel Logic and Scene Structure](docs/phaser/04-reel-logic.md)
+- [ ] [05 — Texture Atlases and Asset Management](docs/phaser/05-texture-atlases.md)
 
 ### SvelteKit / UI
-- [01 — SvelteKit + Phaser Architecture](docs/sveltekit/01-architecture.md)
-- [02 — UI Overlays over the Phaser Canvas](docs/sveltekit/02-ui-overlays.md)
-- [03 — Paytable and Help Screen Layout](docs/sveltekit/03-paytable-layout.md)
+- [ ] [01 — SvelteKit + Phaser Architecture](docs/sveltekit/01-architecture.md)
+- [ ] [02 — UI Overlays over the Phaser Canvas](docs/sveltekit/02-ui-overlays.md)
+- [ ] [03 — Paytable and Help Screen Layout](docs/sveltekit/03-paytable-layout.md)
 
 ### Workflow
-- [Cross-Tool File Handoff Cheatsheet](docs/workflow/file-handoff.md)
-- [Naming Conventions and Folder Structure](docs/workflow/naming-conventions.md)
-- [Resolution and Canvas Size Reference](docs/workflow/resolution-reference.md)
-- [Spine to Phaser Integration Cheatsheet](docs/workflow/spine-to-phaser.md)
-- [Google Drive Asset Store Setup](docs/workflow/google-drive-setup.md)
+- [ ] [Cross-Tool File Handoff Cheatsheet](docs/workflow/file-handoff.md)
+- [ ] [Naming Conventions and Folder Structure](docs/workflow/naming-conventions.md)
+- [ ] [Resolution and Canvas Size Reference](docs/workflow/resolution-reference.md)
+- [ ] [Spine to Phaser Integration Cheatsheet](docs/workflow/spine-to-phaser.md)
+- [ ] [Google Drive Asset Store Setup](docs/workflow/google-drive-setup.md)
 
 ---
 
