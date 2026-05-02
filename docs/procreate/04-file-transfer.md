@@ -1,8 +1,8 @@
 # Transferring Files from iPad to Mac and Windows
 
-> **Tool:** Procreate + AirDrop + Google Drive
-> **Level:** Beginner
-> **Beellionaire context:** Every asset starts on the iPad — getting it off quickly and into the right place is part of every session
+- **Tool:** Procreate + AirDrop + Google Drive
+- **Level:** Beginner
+- **Beellionaire context:** Every asset starts on the iPad — getting it off quickly and into the right place is part of every session
 
 ## Goal
 

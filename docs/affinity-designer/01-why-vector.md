@@ -1,8 +1,8 @@
 # Why Vector? Clean Lines, Scaling, and PSD Export
 
-> **Tool:** Affinity Designer
-> **Level:** Beginner
-> **Beellionaire context:** Slot game assets — reel frames, UI buttons, symbol icons — need to look crisp at multiple screen sizes. Vector makes this free.
+- **Tool:** Affinity Designer
+- **Level:** Beginner
+- **Beellionaire context:** Slot game assets — reel frames, UI buttons, symbol icons — need to look crisp at multiple screen sizes. Vector makes this free.
 
 ## Goal
 

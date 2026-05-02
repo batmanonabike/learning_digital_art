@@ -164,10 +164,10 @@ Each tutorial follows this structure:
 ```
 # Title
 
-> **Tool:** Procreate / Affinity Designer / Spine 2D / Phaser / SvelteKit
-> **Level:** Beginner / Intermediate
-> **Beellionaire context:** what this applies to in the game
-> **Tech context:** relevant only for Phaser/SvelteKit docs — TS patterns, plugin versions, etc.
+- **Tool:** Procreate / Affinity Designer / Spine 2D / Phaser / SvelteKit
+- **Level:** Beginner / Intermediate
+- **Beellionaire context:** what this applies to in the game
+- **Tech context:** relevant only for Phaser/SvelteKit docs — TS patterns, plugin versions, etc.
 
 ## Goal
 What you will be able to do after this tutorial.
