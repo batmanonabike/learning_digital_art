@@ -60,6 +60,26 @@ Personal documentation library for mastering the tools and workflow used to crea
 | M1 Mac | Affinity Suite, Spine 2D (primary workstation) |
 | Windows Laptop | Spine 2D, game engine integration |
 
+## iPad File Transfer
+
+Getting work off the iPad quickly is a regular part of the workflow. Recommended methods by destination:
+
+| Destination | Method | Notes |
+|---|---|---|
+| M1 Mac | **AirDrop** | Fastest — zero friction, no cloud needed |
+| M1 Mac (bulk / background) | **iCloud Drive** | Procreate saves directly; appears in Finder automatically |
+| Windows Laptop | **OneDrive** or **Google Drive** | Best cross-platform option; install app on iPad and Windows |
+| Either (large files / offline) | **USB-C direct** | iPad → Mac via Finder; iPad → Windows via iTunes |
+
+**Export formats from Procreate:**
+
+| Format | Use case |
+|---|---|
+| `.procreate` | Archive — preserves all layers, Procreate-only |
+| **PSD** | Best for handoff to Affinity — layers fully intact |
+| **PNG (flat)** | Final flattened asset ready for Phaser or Spine |
+| **PNG (per layer)** | Share > Layers exports a zip of individual layer PNGs |
+
 ---
 
 ## Project: Beellionaire
@@ -84,7 +104,8 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 ### Procreate
 - [01 — Canvas Setup for Game Assets](docs/procreate/01-canvas-setup.md)
 - [02 — Layer Structure for Character Art](docs/procreate/02-layer-structure.md)
-- [03 — Exporting for Affinity and Spine](docs/procreate/03-exporting.md)
+- [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
+- [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
 
 ### Affinity Designer
 - [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md) ⬅ _start here_
