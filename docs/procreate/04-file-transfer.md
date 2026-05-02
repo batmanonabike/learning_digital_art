@@ -39,11 +39,11 @@ In Procreate, tap the **wrench icon** (top left) → **Share**, then pick the ri
 | Format | When to use |
 |---|---|
 | **PSD** | Handing off to Affinity Designer/Photo — all layers preserved |
-| **Procreate** | Archiving — full layer/group/mask data, Procreate-only |
+| **Procreate** | Full backup — preserves everything PSD can't (blend modes, animation frames, brush data) |
 | **PNG** | Final flat asset ready for Phaser or Spine |
 | **PNG (layers)** | Tap Share > Layers — exports a zip of individual PNGs per layer |
 
-For most Affinity handoffs, **PSD is the right choice.**
+**Export both PSD and `.procreate` for every piece.** PSD is the working/handoff file; `.procreate` is the safety net. If a blend mode exports incorrectly or you need to revisit the original, the `.procreate` file has everything. Storage is cheap — lost work isn't.
 
 ### 2. AirDrop to Mac
 
@@ -78,10 +78,10 @@ Right-click any file or folder in Google Drive (web or desktop app) → **Share*
 ## Worked Example — Strawberry
 
 1. Finish the strawberry illustration in Procreate
-2. Wrench → Share → **PSD**
-3. AirDrop to Mac → lands in Downloads
-4. Move `strawberry.psd` to `Google Drive/beellionaire-assets/source/`
-5. Open in Affinity Designer on Mac — all layers intact, ready to trace as vector
+2. Wrench → Share → **PSD** → AirDrop to Mac
+3. Wrench → Share → **Procreate** → AirDrop to Mac
+4. Move both files to `Google Drive/beellionaire-assets/source/`
+5. Open `strawberry.psd` in Affinity Designer — all layers intact, ready to work with
 
 ## Tips
 
