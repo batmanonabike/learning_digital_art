@@ -36,6 +36,30 @@ Painted textures and character art still belong in Procreate. The rule of thumb:
 > **Structural / geometric shapes → Affinity Designer (vector)**
 > **Organic / painterly / textured → Procreate (raster)**
 
+## When NOT to Use Vector
+
+Converting a complex raster image to vector (tracing every curve and colour by hand) is time-consuming and usually not worth it for organic subjects. A detailed bee character with texture, shading, and painterly edges would take hours to re-draw as vector paths — and the result would likely look stiffer than the original.
+
+**Keep these as raster in Procreate:**
+
+| Asset | Why |
+|---|---|
+| Bee characters | Organic shapes, painted texture, complex shading |
+| Bee animations parts (wings, body, legs) | Same — exported as PNGs direct to Spine |
+| Background environments | Painterly, atmospheric, not geometric |
+| Complex symbol icons with painted detail | If it looks hand-drawn, keep it hand-drawn |
+
+**Use vector in Affinity Designer for:**
+
+| Asset | Why |
+|---|---|
+| Reel frame and slot chrome | Geometric, reused at multiple sizes |
+| UI buttons, panels, borders | Need to scale cleanly across screen densities |
+| Simple clean icons (playing card suits, basic shapes) | Easy to recolour, crisp at any size |
+| Text and logo lockups | Always vector |
+
+For Beellionaire specifically: **the bees stay raster throughout** — Procreate → PNG slices → Spine 2D. Affinity Designer's role in the bee pipeline is limited to cleanup or slicing assistance, not redrawing.
+
 ## Affinity Designer's Two Modes
 
 Affinity Designer is unusual in that it handles both vector and raster in the same file via **Personas** — modes you switch between using the icons at the top left of the screen:
