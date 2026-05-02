@@ -11,9 +11,9 @@ Personal documentation library for mastering the tools and workflow used to crea
 | Tool | Platform | Role in Pipeline |
 |---|---|---|
 | **Procreate** | iPad + Apple Pencil | Concept art, character sketching, texture painting |
-| **Affinity Designer** | Mac / Windows | Vector UI, slot frames, icons, sprite cleanup — vectors scale to any resolution with clean lines; export to PSD for compatibility with other tools |
-| **Affinity Photo** | Mac / Windows | Raster compositing, texture editing, image prep |
-| **Affinity Publisher** | Mac / Windows | Paytables, help screens, multi-page layout |
+| **Affinity Designer** | Mac + Windows PC | Vector UI, slot frames, icons, sprite cleanup — vectors scale to any resolution with clean lines; export to PSD for compatibility with other tools |
+| **Affinity Photo** | Mac + Windows PC | Raster compositing, texture editing, image prep |
+| **Affinity Publisher** | Mac + Windows PC | Paytables, help screens, multi-page layout |
 | **Spine 2D** | Mac / Windows | Character rigging, skeletal animation, runtime export |
 
 ### Game Tech Stack
@@ -58,18 +58,30 @@ Personal documentation library for mastering the tools and workflow used to crea
 |---|---|
 | iPad + Apple Pencil | Procreate — sketching, painting |
 | M1 Mac | Affinity Suite, Spine 2D (primary workstation) |
-| Windows Laptop | Spine 2D, game engine integration |
+| Windows Laptop | Affinity Suite, Spine 2D, game engine integration |
 
-## iPad File Transfer
+## iPad File Transfer and Asset Store
 
-Getting work off the iPad quickly is a regular part of the workflow. Recommended methods by destination:
+Getting work off the iPad quickly is a regular part of the workflow. **Google Drive** is the chosen cloud store — cross-platform, already tied to the existing Google account, 15GB free, and easy folder sharing with collaborators.
 
-| Destination | Method | Notes |
-|---|---|---|
-| M1 Mac | **AirDrop** | Fastest — zero friction, no cloud needed |
-| M1 Mac (bulk / background) | **iCloud Drive** | Procreate saves directly; appears in Finder automatically |
-| Windows Laptop | **OneDrive** or **Google Drive** | Best cross-platform option; install app on iPad and Windows |
-| Either (large files / offline) | **USB-C direct** | iPad → Mac via Finder; iPad → Windows via iTunes |
+**Transfer workflow:**
+
+```
+iPad  --AirDrop-->  Mac (working files in Google Drive folder)
+                            |
+                    Google Drive syncs automatically in background
+                            |
+                    Windows laptop (same folder via Google Drive for Desktop)
+                    Collaborators (share folder by email)
+```
+
+| Transfer | Method |
+|---|---|
+| iPad → Mac (daily) | **AirDrop** — instant, zero friction |
+| Mac → cloud (backup + sync) | **Google Drive for Desktop** — asset folder syncs automatically |
+| Windows access | **Google Drive for Desktop** — folder appears as a local drive |
+| Sharing with collaborators | Share Google Drive folder by email (no Google account required to view) |
+| Large files / offline | **USB-C direct** — iPad → Mac via Finder |
 
 **Export formats from Procreate:**
 
@@ -108,7 +120,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 - [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
 
 ### Affinity Designer
-- [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md) ⬅ _start here_
+- [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md)
 - [02 — Document Setup and Personas](docs/affinity-designer/02-document-setup.md)
 - [03 — Vector UI: Slot Frame Walkthrough](docs/affinity-designer/03-slot-frame.md)
 - [04 — Slicing Characters for Spine](docs/affinity-designer/04-slicing-for-spine.md)
@@ -141,6 +153,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 - [Naming Conventions and Folder Structure](docs/workflow/naming-conventions.md)
 - [Resolution and Canvas Size Reference](docs/workflow/resolution-reference.md)
 - [Spine to Phaser Integration Cheatsheet](docs/workflow/spine-to-phaser.md)
+- [Google Drive Asset Store Setup](docs/workflow/google-drive-setup.md)
 
 ---
 
