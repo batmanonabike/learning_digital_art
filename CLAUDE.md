@@ -11,6 +11,7 @@ See [README.md](README.md) for the full reference — toolchain, pipeline, hardw
 - **Asset store:** Google Drive — AirDrop iPad→Mac, Google Drive for Desktop syncs to Windows and collaborators
 - **Primary project:** Beellionaire — bee-themed slot game; use its assets as worked examples in all tutorials
 - **Doc format:** All tutorials follow the template defined in README.md § Doc Format
+- **Affinity versioning:** Baseline is Affinity April '26 (build 4351). Always state the Affinity app and version in lookups and tutorials, and call out any version-specific differences when applicable.
 
 ## User
 
