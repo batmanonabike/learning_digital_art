@@ -128,6 +128,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 
 ### Affinity Photo
 - [ ] [01 — Texture Editing and Compositing](docs/affinity-photo/01-texture-editing.md)
+- [x] [02 — Resizing an Image to a Specific Resolution](docs/affinity-photo/02-resizing-to-resolution.md)
 
 ### Spine 2D
 - [ ] [01 — Project Setup and Image Import](docs/spine2d/01-project-setup.md)
