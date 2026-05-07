@@ -142,7 +142,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 - [ ] [02 — Loading Spine Assets in Phaser](docs/phaser/02-loading-spine-assets.md)
 - [ ] [03 — SpineGameObject and Animation States](docs/phaser/03-spine-game-object.md)
 - [ ] [04 — Slot Reel Logic and Scene Structure](docs/phaser/04-reel-logic.md)
-- [ ] [05 — Texture Atlases and Asset Management](docs/phaser/05-texture-atlases.md)
+- [x] [05 — Texture Atlases and Asset Management](docs/phaser/05-texture-atlases.md)
 
 ### SvelteKit / UI
 - [ ] [01 — SvelteKit + Phaser Architecture](docs/sveltekit/01-architecture.md)
