@@ -116,6 +116,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 - [ ] [02 — Layer Structure for Character Art](docs/procreate/02-layer-structure.md)
 - [x] [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
 - [x] [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
+- [x] [05 — Shading and Highlighting in Procreate](docs/procreate/05-shading-and-highlighting.md)
 
 ### Affinity Designer
 - [x] [01 — Why Vector? Clean Lines, Scaling, and PSD Export](docs/affinity-designer/01-why-vector.md)
