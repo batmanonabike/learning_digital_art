@@ -13,6 +13,19 @@ Add convincing shading and highlights to flat base art using clipping masks, ble
 - A canvas with flat base colours on separate named layers
 - Basic familiarity with the Layers panel
 
+## Using Apple Pencil (USB-C)
+
+If you are using **Apple Pencil (USB-C)**, pressure sensitivity is not available. You can still shade effectively by controlling opacity with layer settings and repeated passes.
+
+Use this setup:
+
+- Shadow layer: **Multiply**, layer opacity **55-70%**
+- Highlight layer: **Screen** or **Add**, layer opacity **25-45%**
+- Soft Airbrush opacity: **15-30%**
+- Build tone in 3-6 light passes instead of pressing harder
+
+This workflow is slower than pressure shading, but it is consistent and easy to adjust non-destructively.
+
 ## How Light Works on Simple Shapes
 
 Before touching brushes, decide where your light is coming from and stick to it. For Beellionaire, a consistent light source in the upper-left works well across all assets.
@@ -129,6 +142,7 @@ The bee's abdomen has alternating yellow and dark brown stripes. Here's the shad
 
 - **Sample your base colour first** before picking a shadow colour. Then shift it darker and cooler in the HSB wheel. Avoid using the same hue family for too long — ambient occlusion often has a cool/purple cast even on warm subjects.
 - **Wings are special.** Bee wings are translucent — use a very light blue-grey for both shadow and highlight, at low opacity, to suggest the membrane without losing the transparency feeling.
+- **No-pressure workflow works.** With Apple Pencil (USB-C), keep brush opacity low and build tone with multiple passes. Control intensity using layer opacity instead of pen pressure.
 - **Don't shade everything.** Simple flat symbols (playing card suits, basic icons) often look better without shading. Shading is most valuable on organic, rounded forms — bee bodies, honey jars, hive cells.
 - **Undo is your friend.** Procreate has generous undo (two-finger tap). Don't be afraid to paint a stroke and immediately undo it to compare.
 - **Alpha lock vs clipping mask:** Alpha Lock (tap the layer > Alpha Lock) also keeps paint inside the shape, but it paints directly on the base layer — changes are destructive. Clipping masks keep base colours untouched. Prefer clipping masks.
