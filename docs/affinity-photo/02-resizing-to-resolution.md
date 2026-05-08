@@ -1,6 +1,6 @@
 # Resizing an Image to a Specific Resolution
 
-- **Tool:** Affinity (Pixel/Photo workflow)
+- **Tool:** Affinity — Pixel persona (unified app, build 4351)
 - **Level:** Beginner
 - **Beellionaire context:** Use this when a painted symbol, background, or exported texture needs to match an exact game resolution like `1024x1024` or `2048x1024` without accidentally just trimming the edges.
 
@@ -16,9 +16,9 @@ Resize an existing image to a specific pixel resolution in Affinity's raster wor
 
 ## First Check: Are You In The Right App And Persona?
 
-If your install shows personas like **Vector**, **Pixel**, **Layout**, and **Canva AI**, you have the newer unified Affinity app. That is fine.
+Affinity is a unified app — Vector, Pixel, Layout, and Export personas are all inside the same install.
 
-For this tutorial, use the **Pixel** or photo-editing workflow inside that app.
+For this tutorial, use the **Pixel** persona (the photo-editing workflow).
 
 On desktop Affinity, the commands in this tutorial are in:
 

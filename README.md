@@ -11,9 +11,7 @@ Personal documentation library for mastering the tools and workflow used to crea
 | Tool | Platform | Role in Pipeline |
 |---|---|---|
 | **Procreate** | iPad + Apple Pencil | Concept art, character sketching, texture painting |
-| **Affinity Designer** | Mac + Windows PC | Vector UI, slot frames, icons, sprite cleanup — vectors scale to any resolution with clean lines; export to PSD for compatibility with other tools |
-| **Affinity Photo** | Mac + Windows PC | Raster compositing, texture editing, image prep |
-| **Affinity Publisher** | Mac + Windows PC | Paytables, help screens, multi-page layout |
+| **Affinity** (unified app, build 4351) | Mac + Windows PC | One app — three personas: **Vector** (UI, icons, slot frames), **Pixel** (raster compositing, texture editing), **Layout** (paytable, help screens) |
 | **Spine 2D** | Mac / Windows | Character rigging, skeletal animation, runtime export |
 
 ### Game Tech Stack
@@ -33,10 +31,10 @@ Personal documentation library for mastering the tools and workflow used to crea
 1. CONCEPT (Procreate / iPad)
    Sketch characters, environments, UI layouts
    ↓
-2. CLEAN ART (Procreate + Affinity Designer)
+2. CLEAN ART (Procreate + Affinity — Vector persona)
    Refine linework, build vector UI elements, paint textures
    ↓
-3. PREP FOR RIGGING (Affinity Designer/Photo)
+3. PREP FOR RIGGING (Affinity — Vector/Pixel persona)
    Slice characters into named parts (body, wings, head, etc.)
    Export individual PNGs at correct resolution
    ↓
@@ -116,7 +114,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 ### Procreate
 - [ ] [01 — Canvas Setup for Game Assets](docs/procreate/01-canvas-setup.md)
 - [ ] [02 — Layer Structure for Character Art](docs/procreate/02-layer-structure.md)
-- [ ] [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
+- [x] [03 — Exporting from Procreate: Formats and When to Use Each](docs/procreate/03-exporting.md)
 - [x] [04 — Transferring Files from iPad to Mac and Windows](docs/procreate/04-file-transfer.md)
 
 ### Affinity Designer
@@ -150,7 +148,7 @@ A bee-themed slot game. All tutorials and worked examples in this library use Be
 - [ ] [03 — Paytable and Help Screen Layout](docs/sveltekit/03-paytable-layout.md)
 
 ### Workflow
-- [ ] [Cross-Tool File Handoff Cheatsheet](docs/workflow/file-handoff.md)
+- [x] [Cross-Tool File Handoff Cheatsheet](docs/workflow/file-handoff.md)
 - [ ] [Naming Conventions and Folder Structure](docs/workflow/naming-conventions.md)
 - [ ] [Resolution and Canvas Size Reference](docs/workflow/resolution-reference.md)
 - [ ] [Spine to Phaser Integration Cheatsheet](docs/workflow/spine-to-phaser.md)

@@ -1,12 +1,12 @@
 # Why Vector? Clean Lines, Scaling, and PSD Export
 
-- **Tool:** Affinity Designer
+- **Tool:** Affinity — Vector persona (unified app, build 4351)
 - **Level:** Beginner
 - **Beellionaire context:** Slot game assets — reel frames, UI buttons, symbol icons — need to look crisp at multiple screen sizes. Vector makes this free.
 
 ## Goal
 
-Understand why vector is the right choice for game UI and icon assets, how Affinity Designer handles both vector and raster in one app, and how to export to PSD so your work flows cleanly into other tools.
+Understand why vector is the right choice for game UI and icon assets, how Affinity's Vector persona works, and how to export to PSD so your work flows cleanly into other tools.
 
 ## Raster vs Vector — The Short Version
 
@@ -60,17 +60,18 @@ Converting a complex raster image to vector (tracing every curve and colour by h
 
 For Beellionaire specifically: **the bees stay raster throughout** — Procreate → PNG slices → Spine 2D. Affinity Designer's role in the bee pipeline is limited to cleanup or slicing assistance, not redrawing.
 
-## Affinity Designer's Two Modes
+## Affinity's Personas
 
-Affinity Designer is unusual in that it handles both vector and raster in the same file via **Personas** — modes you switch between using the icons at the top left of the screen:
+Affinity is a unified app — Designer, Photo, and Publisher are no longer separate installs. Instead, the app has **Personas** (modes) you switch between using the icons at the top left:
 
 | Persona | Icon | What it does |
 |---|---|---|
-| **Vector Persona** | Pentagon | Draw and edit vector shapes, curves, text |
-| **Pixel Persona** | Grid of squares | Paint raster strokes directly on pixel layers |
-| **Export Persona** | Arrow | Define slices and export assets |
+| **Vector** | Pentagon | Draw and edit vector shapes, curves, text — this is the Designer workflow |
+| **Pixel** | Grid of squares | Paint raster strokes, composite images — this is the Photo workflow |
+| **Layout** | Pages | Multi-page document layout — this is the Publisher workflow |
+| **Export** | Arrow | Define slices and export assets |
 
-For game asset work you'll spend most time in Vector Persona, occasionally drop into Pixel Persona to paint detail on top, then use Export Persona to output final PNGs.
+For game asset work you'll spend most time in Vector persona, occasionally drop into Pixel persona to paint detail on top, then use Export persona to output final PNGs.
 
 ## PSD Export — Why It's Useful
 
@@ -89,12 +90,12 @@ You have `strawberry-sketch.psd` exported from Procreate and sitting in your Goo
 1. **Open the file** — File → Open → select `strawberry-sketch.psd`. Affinity imports it with layers intact.
 2. **Lock the sketch layer** — in the Layers panel, click the padlock icon on the Procreate layer. This prevents accidental edits to your reference.
 3. **Create a new layer above it** — this is where your vector artwork will live.
-4. **Switch to Vector Persona** (top left pentagon icon)
+4. **Switch to Vector persona** (top left pentagon icon)
 5. **Use the Pen tool** (P) to trace the outline of the strawberry — click to place anchor points, drag to create curves
 6. **Add a fill** — with the shape selected, click a colour in the swatches panel
 7. **Build up shapes** — separate vector shapes for the body, seeds, and leaf work better than one complex path
 
-When done, File → Export → PSD to save a layered version, or use Export Persona to slice out individual PNGs.
+When done, File → Export → PSD to save a layered version, or use Export persona to slice out individual PNGs.
 
 ## Tips
 
@@ -106,4 +107,4 @@ When done, File → Export → PSD to save a layered version, or use Export Pers
 
 ## Next
 
-[02 — Document Setup and Personas](02-document-setup.md) — set up an Affinity Designer document correctly for game asset work before building anything serious.
+[02 — Document Setup and Personas](02-document-setup.md) — set up an Affinity document correctly for game asset work before building anything serious.
