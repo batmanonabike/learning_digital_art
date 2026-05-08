@@ -24,6 +24,8 @@ Use this setup:
 - Soft Airbrush opacity: **15-30%**
 - Build tone in 3-6 light passes instead of pressing harder
 
+Important: keep brush opacity fixed while doing those passes. Do not change opacity every pass. If the result is too strong or too weak, adjust **layer opacity** after the passes.
+
 This workflow is slower than pressure shading, but it is consistent and easy to adjust non-destructively.
 
 ## How Light Works on Simple Shapes
@@ -102,7 +104,7 @@ Reduce opacity to around **30–50%** and build up in multiple passes rather tha
 3. Pick a colour — do not use black. Sample the base colour, then drag it in the HSB colour wheel toward a darker, slightly cooler or warmer hue. A dark warm brown works for yellows; a dark blue-purple works for blues.
 4. Choose the Soft Airbrush at 20–30% opacity
 5. Paint along the edges of the shape that face away from the light (bottom-right for upper-left lighting)
-6. Build up in multiple strokes — you can always add more, harder to remove
+6. Build up in multiple strokes at the same brush opacity — you can always add more, harder to remove
 
 ### 3. Add a core shadow
 
